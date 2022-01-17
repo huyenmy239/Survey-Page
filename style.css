@@ -8,17 +8,52 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background: url(./bg1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .main {
     width: 100%;
-    height: 100vh;
-    background: url(./bg.jpg) no-repeat;
-    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 40px 400px;
+}
+
+#survey-form {
+    background: rgba(117, 20, 20, 0.9);
+    padding: 10px 45px;
+    border-radius: 5px;
 }
 
 input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+input[required] {
+    min-width: 100%;
     display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+}
+
+label.title {
+    margin: 35px 0 10px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 input[type=checkbox] {
@@ -27,4 +62,14 @@ input[type=checkbox] {
 
 input[type=radio] {
     display: inline-block;
+}
+
+#submit {
+    margin: 35px 0;
+    width: 100%;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #37af65;
 }
