@@ -72,6 +72,10 @@ input[type=radio] {
     display: inline-block;
 }
 
+textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #submit {
     margin: 35px 0;
     width: 100%;
