@@ -33,13 +33,21 @@ header {
     border-radius: 5px;
 }
 
-input {
+.description {
+    font-weight: 300;
+}
+
+input, textarea {
     border: none;
     outline: none;
     border-radius: 3px;
 }
 
-input[required] {
+textarea {
+    width: 100%;
+}
+
+input[required], textarea {
     min-width: 100%;
     display: block;
     padding: 10px 15px;
@@ -70,6 +78,9 @@ input[type=radio] {
     padding: 15px 45px;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
-    background: #37af65;
+    /* color: #fff; */
+    color:  rgba(240, 57, 57);
+    background: #fff;
+    /* background: #37af65; */
+    cursor: pointer;
 }

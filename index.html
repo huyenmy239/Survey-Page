@@ -13,11 +13,11 @@
             <header>
                 <h1 id="title">Attack On Titan</h1>
                 <div id="description">
-                    Chìm trong thế giới đầy bóng tối là 1 tia sáng nhỏ của sự tự do
+                    <i>Chìm trong thế giới đầy bóng tối là 1 tia sáng nhỏ của sự tự do</i>
                 </div>
             </header>
 
-            <form action="#" id="survey-form">
+            <form action="" method="get" id="survey-form">
                 <label for="name" id="name-label" class="title">Tên</label>
                 <input type="text" id="name" placeholder="Nhập tên" min="1" max="15" required>
                 <label for="email" id="email-label" class="title">Email</label>
@@ -26,26 +26,26 @@
                 <input type="number" id="number" placeholder="Tuổi" value="number" min="10" max="100" required>
                 
                 <label class="radio title">Nếu được là 1 người lính trong Attack On Titan, bạn sẽ chọn gia nhập đội quân nào?</label> <br>
-                <input type="radio" name="characters"> Trinh sát đoàn <br>
-                <input type="radio" name="characters"> Đồn trú binh đoàn <br>
-                <input type="radio" name="characters"> Hiến binh đoàn <br>
-                <input type="radio" name="characters"> Quân đội Marley <br>
+                <input id="trinhsatdoan" type="radio" name="characters"> <label for="trinhsatdoan">Trinh sát đoàn</label> <br>
+                <input id="dontrubinhdoan" type="radio" name="characters"> <label for="dontrubinhdoan">Đồn trú binh đoàn</label> <br>
+                <input id="hienbinhdoan" type="radio" name="characters"> <label for="hienbinhdoan">Hiến binh đoàn</label> <br>
+                <input id="marley" type="radio" name="characters"> <label for="marley">Quân đội Marley</label> <br>
     
                 <label class="checkbox title">Bạn thích nhân vật nào trong Attack On Titan?</label> <br>
-                <input type="checkbox"> Eren Jeager <br>
-                <input type="checkbox"> Armin Alert <br>
-                <input type="checkbox"> Mikasa Ackerman <br>
-                <input type="checkbox"> Jean Kirschtein <br>
-                <input type="checkbox"> Connie Springer <br>
-                <input type="checkbox"> Sasha Blouse <br>
-                <input type="checkbox"> Reiner Braun <br>
-                <input type="checkbox"> Bertholdt Hoover <br>
-                <input type="checkbox"> Annie Leonhart <br>
-                <input type="checkbox"> Levi Ackerman <br>
-                <input type="checkbox"> Erwin Smith <br>
+                <input id="eren" type="checkbox"> <label for="eren">Eren Jeager</label> <br>
+                <input id="armin" type="checkbox"> <label for="armin">Armin Alert</label> <br>
+                <input id="mikasa" type="checkbox"> <label for="mikasa">Mikasa Ackerman</label> <br>
+                <input id="jean" type="checkbox"> <label for="jean">Jean Kirschtein</label> <br>
+                <input id="connie" type="checkbox"> <label for="connie">Connie Springer</label> <br>
+                <input id="sasha" type="checkbox"> <label for="sasha">Sasha Blouse</label> <br>
+                <input id="reiner" type="checkbox"> <label for="reiner">Reiner Braun</label> <br>
+                <input id="bertholdt" type="checkbox"> <label for="bertholdt">Bertholdt Hoover</label> <br>
+                <input id="annie" type="checkbox"> <label for="annie">Annie Leonhart</label> <br>
+                <input id="levi" type="checkbox"> <label for="levi">Levi Ackerman</label> <br>
+                <input id="erwin" type="checkbox"> <label for="erwin">Erwin Smith</label> <br>
     
-                <label class="title">Bạn có suy nghĩ gì về vũ trụ Attack On Titan</label>
-                <input type="textarea" placeholder="Nhập vào đây" class="title" required>
+                <label class="title">Bạn có suy nghĩ gì về vũ trụ Attack On Titan</label> <br>
+                <textarea placeholder="Nhập vào đây" class="title" rows="5" required></textarea>
     
                 <input type="submit" id="submit" value="Gửi">
             </form>
